@@ -14,3 +14,4 @@ clean:
 
 test-serial: clean make qemu-serial
 test-gtk: clean make qemu-gtk
+test: test-gtk
